@@ -1,0 +1,7 @@
+Maria Ramirez, apendicitis, A
+Lorenzo Toledo, chikunguya, H
+Maria Ramirez, apendicitis, P
+Juan Perez, fractura de pierna, F
+Carmen Sarmientos, dolores de parto, B
+Juan Perez, fractura de pierna, G
+Juan Perez, fractura de pierna, R
