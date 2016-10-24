@@ -44,10 +44,14 @@ public class VectorHeap<E extends Comparable<E>> implements Priority<E> {
     }
     
     public E remove(){
-        Node temp = this.root;
-        root = root.getNext();
-        
-        return (E)temp.getEle();
+        if(root == null)
+            return null;
+        else{
+            Node temp = this.root;
+            root = root.getNext();
+
+            return (E)temp.getEle();
+        }
     }
     
     public int size(){
@@ -63,5 +67,6 @@ public class VectorHeap<E extends Comparable<E>> implements Priority<E> {
     public void clear(){
         this.root = null;
     }
+
     
 }
